@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <!-- My styling -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>RB Portfolio</title>
+</head>
+<body>
+
+<!-- NAVBAR-->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+<!-- ABOUT ME -->
+    <section id="aboutMe">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    Lemon drops cookie brownie gingerbread pudding jelly beans. Marzipan bonbon marzipan chocolate bar oat cake biscuit dessert jelly beans. Jelly cake jelly beans. Toffee jelly beans powder marshmallow danish apple pie jelly beans chupa chups pudding. Pastry caramels lemon drops bonbon jelly beans biscuit cupcake. Donut apple pie topping croissant cookie chocolate muffin gingerbread. Cake jelly beans tiramisu soufflé toffee topping dragée fruitcake fruitcake.
+                </div>
+                <div class="col-2">
+                    Pie fruitcake lemon drops candy canes gummies dessert. Sweet roll pie fruitcake cookie gummi bears. Cupcake muffin danish icing wafer sesame snaps jelly cotton candy biscuit. Tootsie roll chocolate cake macaroon dessert lemon drops sugar plum. Lollipop danish chupa chups jelly beans. Danish lemon drops bear claw jelly beans jujubes. Chupa chups halvah ice cream chupa chups danish biscuit carrot cake muffin. Cotton candy gummies jelly-o toffee bear claw danish macaroon chupa chups.
+                </div>
+                <div class="col-2">        
+                    Sesame snaps sweet roll croissant jelly icing tootsie roll chocolate cake candy ice cream. Tootsie roll carrot cake pastry croissant. Brownie chocolate gummies bear claw topping tart. Cupcake dessert jelly beans cotton candy jelly-o. Cotton candy toffee sweet roll topping jelly beans macaroon cake icing. Toffee tart marzipan oat cake chocolate tootsie roll bonbon. Marzipan marzipan lollipop cake cotton candy jujubes pastry jelly-o. Powder muffin gummies ice cream.
+                </div>
+                <div class="col-2">        
+                    Marshmallow liquorice tart topping. Cheesecake marshmallow lollipop cotton candy lollipop powder bear claw danish soufflé. Bonbon dragée jujubes cookie soufflé ice cream tootsie roll lollipop gummies. Powder topping tiramisu marzipan dragée gummi bears caramels. Carrot cake sugar plum chupa chups. Oat cake pie icing jujubes cake gummies powder jelly beans soufflé.
+                </div>
+                <div class="col-2">   
+                    Fruitcake sugar plum dessert liquorice. Oat cake tart halvah muffin. Pastry tiramisu cookie chocolate bar soufflé dragée candy sesame snaps. Pudding jujubes chocolate pastry jelly danish oat cake dragée cake. Fruitcake liquorice apple pie dragée candy oat cake cheesecake chocolate cake. Candy tiramisu caramels jujubes dragée caramels muffin jelly-o. Cookie ice cream carrot cake jelly candy pie oat cake. Chocolate pastry candy bonbon marshmallow halvah.
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- HEADER -->
+    <section id="header">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- FORM -->
+<section id="contact">
+        <div class="container">
+          <h2 class="text-center text-uppercase">Contact Me</h2>
+          <div class="row">
+            <form action="https://formspree.io/YOUR EMAIL HERE" method="POST">
+              <div class="control-group">
+                <div class="form-group">
+                  <label>Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    id="name"
+                    required
+                    data-validation-required-message="Please enter your name"
+                    name="name"
+                    >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group">
+                  <label>Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    id="email"
+                    required
+                    data-validation-required-message="Please enter your email"
+                    name="_replyto"
+                  >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    rows="7"
+                    placeholder="Your Message"
+                    id="message"
+                    required
+                    data-validation-required-message="Please leave a message"
+                    name="message"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="text-center">
+                <div id="success"></div>
+                <button type="submit" class="btn btn-lg btn-black">
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+<!-- SCRIPT TAGS -->    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="js/main.js"></script>
+
+</body>
+</html>
