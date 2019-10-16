@@ -1,1 +1,8 @@
+#navBar {
+    font-family: var(--font-three);
+}
 
+.navbar-nav {
+    position: absolute;
+    right: 0;
+}

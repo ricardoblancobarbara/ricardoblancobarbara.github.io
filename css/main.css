@@ -1,9 +1,14 @@
-
-@import "about.css";
 @import "body.css";
+@import "navbar.css";
+@import "header.css";
+@import "about.css";
+@import "skills.css";
+@import "projects.css";
 @import "contact.css";
 @import "footer.css";
-@import "header.css";
-@import "navbar.css";
-@import "project.css";
 @import "variables.css";
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
