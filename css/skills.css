@@ -1,7 +1,20 @@
-.title-container {
-    background-color: cadetblue;
+#skills {
+    background-color: white;    
 }
 
-.skills-container {
-    background-color: coral;
+li {
+    text-align: center;
+    list-style-type: none;       
+}
+
+i {
+    margin: auto; 
+    text-align: center;
+    padding: 0 0 2rem 0;
+    color: var(--orange);
+    font-size: 5rem;
+}
+
+.skill {
+    text-align: center;
 }

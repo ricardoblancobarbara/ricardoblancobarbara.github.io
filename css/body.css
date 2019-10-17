@@ -1,5 +1,13 @@
 body {
-    background: var(--orange);
+    background: white;
     font-family: var(--font-three);
 }
 
+.title-container {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+
+.container {
+    padding: 2rem 0 2rem 0;
+}

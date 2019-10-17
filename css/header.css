@@ -1,14 +1,15 @@
-/*
-.jumbotron{
-    background: url(../assets/photo-1532966032148-14df846ccaeb.jpg) no-repeat center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-*/
 
 #header {
     background: url(../assets/photo-1506021356463-50ae1f6df7fb.jpg);
-    background-size: 100% 100%;
-    height: 800px;
+    background-size: cover;
+    height: 800px;   
+}
+
+#header h1 {
+    padding: 4rem 0 0 0;
+    text-align: center;
+}
+
+#header p {
+    text-align: center;
 }
